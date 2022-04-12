@@ -44,6 +44,7 @@ We have recently signed a supplier of conjured items.
 This requires an update to our system:
 
 - "Conjured" items degrade in Quality twice as fast as normal items
+- An item is "Conjured" if it contains "Conjured" in it's name
 
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
 still works correctly. Your changes should be supported by appropriate tests.
