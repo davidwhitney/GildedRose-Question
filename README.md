@@ -12,7 +12,7 @@ Welcome to team Gilded Rose!
 
 We are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date.
 
-We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new  adventures. 
+We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures.
 
 *Your task is to add the new feature to our system so that we can begin selling a new category of items.*
 
@@ -46,9 +46,19 @@ This requires an update to our system:
 - "Conjured" items degrade in Quality twice as fast as normal items
 
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
-still works correctly.
+still works correctly. Your changes should be supported by appropriate tests.
 
 However, do not alter the Item class or Items property as those belong to the
-goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code
-ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover
-for you).
+goblin in the corner and he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
+
+## Hints
+
+This is deliberately a production-like scenario.
+
+- Treat it like a production system and test your code as you go
+- Feel free to test existing behaviour
+- Feel free to add new behaviour
+- Added behaviour should be supported by tests
+
+We use this kata to understand both your approach, and code style.
+You're allowed to change anything in the sample submitted - we know this is bad code!
